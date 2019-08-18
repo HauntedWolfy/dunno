@@ -1,10 +1,16 @@
+ //META{"name":"Avatar Soft Borders","description":"Just makes avatar and guild borders rounded a bit","author":"Wolfy","version":"1"}*//
+:root {
+--border-radius: 20%; /* 0%-50% */
+}
+
 .svg-1X37T1 {
 
   border-radius: var(--border-radius)
 }
 
-
-/** ---- Avatars and Statuses ---- **/
+.avatar-3elDyV {
+ border-radius: var(--border-radius)
+}
 
 .mask-1l8v16 img,
 .avatar-VxgULZ::before {
@@ -15,3 +21,9 @@ foreignObject[mask] {
   mask: unset;
 }
 
+.videoBackgroundWrapper-2dCt49 {
+ background-color: #0000;
+}
+.wordmark-2iDDfm svg {
+background-image url ('https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png')
+}
